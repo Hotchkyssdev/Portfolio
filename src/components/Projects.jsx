@@ -15,6 +15,19 @@ const stagger = {
 };
 
 export default function Projects() {
+  // Creamos el objeto del nuevo proyecto respetando la estructura interna de tu data
+  const technologyServProject = {
+    id: 'technology-serv-resistencia',
+    title: 'Technology Serv - Resistencia',
+    description: 'Landing page corporativa de alto impacto visual con estética cyberpunk/neón. Implementa una navegación fluida, diseño responsivo optimizado y un backend robusto en PHP (PHPMailer) integrado de forma asíncrona mediante Fetch API para la gestión segura de consultas comerciales.',
+    tags: ['HTML5', 'CSS3 (Neón)', 'JavaScript', 'PHP', 'PHPMailer'],
+    liveUrl: 'https://technologyserv.page.gd/',
+    featured: true
+  };
+
+  // Combinamos el nuevo proyecto al principio de la lista existente
+  const allProjects = [technologyServProject, ...projects];
+
   return (
     <section id="projects" className="projects">
       <div className="container">
@@ -39,8 +52,8 @@ export default function Projects() {
           whileInView="show"
           viewport={{ once: true, amount: 0.1 }}
         >
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+          {allProjects.map((project) => (
+            <ProjectCard key={project.id || project.title} project={project} />
           ))}
         </motion.div>
 
@@ -84,7 +97,7 @@ function ProjectCard({ project }) {
         <h3 className="project-card__title">{title}</h3>
         <p className="project-card__desc">{description}</p>
         <div className="project-card__tags">
-          {tags.map(tag => (
+          {tags && tags.map(tag => (
             <span key={tag} className="project-card__tag">{tag}</span>
           ))}
         </div>

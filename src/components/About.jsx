@@ -70,7 +70,7 @@ export default function About() {
         >
           {[
             { value: '2+',  label: 'Años desarrollando' },
-            { value: '3',   label: 'Proyectos en producción' },
+            { value: '4',   label: 'Proyectos en producción' },
             { value: '9/10', label: 'Proyecto final UNNE' },
           ].map(({ value, label }) => (
             <motion.div
