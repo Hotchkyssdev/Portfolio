@@ -30,7 +30,7 @@ export default function About() {
           </motion.h2>
           <motion.p className="about__bio" variants={fadeUp}>
             Soy estudiante de la Tecnicatura Universitaria en Programación en la UTN y Técnico en
-            Informática egresado con promedio 8.66. Gané medallas en las Olimpiadas de Programación 2023
+            Informática egresado con promedio 8.66. Gané medallas en las Olimpíadas de Programación 2023
             a nivel provincial y nacional.
           </motion.p>
           <motion.p className="about__bio" variants={fadeUp}>
@@ -69,8 +69,8 @@ export default function About() {
           viewport={{ once: true, amount: 0.3 }}
         >
           {[
-            { value: '2+',  label: 'Años desarrollando' },
-            { value: '4',   label: 'Proyectos en producción' },
+            { value: '2+',   label: 'Años desarrollando' },
+            { value: '4',    label: 'Proyectos en producción' }, // <-- Modificado a 4 por Technology Serv
             { value: '9/10', label: 'Proyecto final UNNE' },
           ].map(({ value, label }) => (
             <motion.div
