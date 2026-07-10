@@ -45,8 +45,8 @@ export const projects = [
     title: "Technology Serv — Resistencia",
     description:
       "Landing page corporativa de alto impacto visual con estética cyberpunk/neón. Implementa una navegación fluida, diseño responsivo optimizado y un backend robusto en PHP (PHPMailer) integrado de forma asíncrona mediante Fetch API.",
-    tags: ["HTML5", "CSS3", "JavaScript", "PHP"],
-    githubUrl: "https://github.com/Hotchkyssdev",
+    tags: ["HTML5", "CSS3 (Neón)", "JavaScript", "PHP", "PHPMailer"],
+    githubUrl: null, 
     liveUrl: "https://technologyserv.page.gd",
     featured: true,
   },
@@ -56,7 +56,7 @@ export const projects = [
     description:
       "Plataforma e-commerce completa para perfumería: catálogo, carrito, autenticación, gestión de pedidos, integración con MercadoPago, calculadora de envíos y panel de administración.",
     tags: ["PHP", "MySQL", "JavaScript", "MercadoPago", "SMTP"],
-    githubUrl: "https://github.com/Hotchkyssdev",
+    githubUrl: null, 
     liveUrl: "https://dupsparfumsj.page.gd",
     featured: true,
   },
