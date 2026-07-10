@@ -42,6 +42,16 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "Technology Serv — Resistencia",
+    description:
+      "Landing page corporativa de alto impacto visual con estética cyberpunk/neón. Implementa una navegación fluida, diseño responsivo optimizado y un backend robusto en PHP (PHPMailer) integrado de forma asíncrona mediante Fetch API.",
+    tags: ["HTML5", "CSS3", "JavaScript", "PHP"],
+    githubUrl: "https://github.com/Hotchkyssdev",
+    liveUrl: "https://technologyserv.page.gd",
+    featured: true,
+  },
+  {
+    id: 2,
     title: "Dups Parfums — E-commerce",
     description:
       "Plataforma e-commerce completa para perfumería: catálogo, carrito, autenticación, gestión de pedidos, integración con MercadoPago, calculadora de envíos y panel de administración.",
@@ -51,7 +61,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "Notorium — App tipo Trello",
     description:
       "Aplicación web colaborativa de gestión de tareas con columnas y funcionalidad drag & drop. Desarrollada en el bootcamp de Streambe Argentina.",
@@ -61,7 +71,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: "AquaFenix — Torre de enfriamiento IoT",
     description:
       "Torre de enfriamiento inteligente con ESP32 y sensores de temperatura. Visualización en app móvil y sitio web informativo. Presentado en la UNNE. Calificación: 9/10.",
@@ -73,6 +83,13 @@ export const projects = [
 ];
 
 export const experience = [
+  {
+    role: "Desarrollador Web Front End — Freelance",
+    company: "Technology Serv",
+    period: "2026",
+    description:
+      "Diseño y desarrollo de landing page corporativa con estética cyberpunk/neón. Implementación de maquetación responsiva avanzada, navegación fluida y un backend robusto en PHP (PHPMailer) integrado de forma asíncrona mediante Fetch API para la gestión segura de consultas comerciales.",
+  },
   {
     role: "Desarrollador Web Full Stack — Freelance",
     company: "Dups Parfums",
